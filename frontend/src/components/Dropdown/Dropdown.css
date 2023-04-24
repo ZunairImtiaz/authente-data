@@ -1,0 +1,55 @@
+
+
+/* The dropdown container */
+.Dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.Dropdown .Dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.Dropdown:hover .Dropbtn {
+  background-color: #40a4c8;
+}
+
+/* Dropdown content (hidden by default) */
+.Dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.Dropdown-content p {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.Dropdown-content p:hover {
+  background-color: #bbb;
+  cursor: pointer;
+}
+
+/* Show the dropdown menu on hover */
+.Dropdown:hover .Dropdown-content {
+  display: block;
+}
